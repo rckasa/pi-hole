@@ -4,3 +4,5 @@ pytest-xdist==1.26.1
 pytest-cov==2.6.1
 testinfra==1.19.0
 tox==3.7.0
+pyyaml>=4.2b1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.25.9 # not directly required, pinned by Snyk to avoid a vulnerability
